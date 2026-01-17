@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FirstAppCube</string>
+    <string name="description_person_image">image of a person</string>
 </resources>
