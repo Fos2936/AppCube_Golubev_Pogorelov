@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">FirstAppCube</string>
     <string name="description_person_image">image of a person</string>
+    <string name="textBegin">Начать игру</string>
+    <string name="todo">TODO</string>
+    <string name="textRules">Нажмите на кнопку, что бросить кубик</string>
+    <string name="textResult">0</string>
 </resources>

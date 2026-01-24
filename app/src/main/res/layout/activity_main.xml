@@ -12,12 +12,13 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Начать игру"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/textBegin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resultText" />
 
@@ -25,7 +26,9 @@
         android:id="@+id/imageView"
         android:layout_width="119dp"
         android:layout_height="128dp"
-        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/my_photo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,9 +37,11 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Нажмите на кнопку, что бросить кубик"
+        android:layout_width="370dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/textRules"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -46,9 +51,9 @@
 
     <TextView
         android:id="@+id/resultText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:text="@string/textResult"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"

@@ -4,6 +4,10 @@ plugins {
 }
 
 android {
+    buildFeatures {
+        viewBinding = true
+    }
+
     namespace = "com.example.firstappcube_Pogorelov_Golubev"
     compileSdk = 36
 
