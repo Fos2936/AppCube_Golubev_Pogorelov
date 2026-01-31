@@ -4,4 +4,4 @@
 
 Функциональность: При нажатии на кнопку выводится случайно выбранная цифра от 1 до 6.
 
-<img width="1553" height="672" alt="image" src="https://github.com/user-attachments/assets/ad7cc3d6-9e22-4c54-9a97-7b79df29bec2" />
+<img width="496" height="403" alt="image" src="https://github.com/user-attachments/assets/74495036-1892-413b-943b-39491a9b4fb8" />
